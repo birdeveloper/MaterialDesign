@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <!--TextBox-->
+    <declare-styleable name="CustomTextPicker">
+        <attr name="required" format="boolean" />
+
+        <attr name="pattern" format="string" />
+
+        <attr name="mask" format="string" />
+
+        <!--Numeric-->
+        <attr name="defaultValue" format="string" />
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="type" format="enum">
+            <enum name="range" value="1" />
+            <enum name="equal" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
